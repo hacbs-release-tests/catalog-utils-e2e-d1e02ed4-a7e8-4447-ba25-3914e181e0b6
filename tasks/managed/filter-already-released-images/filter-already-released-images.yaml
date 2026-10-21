@@ -127,7 +127,7 @@ spec:
         - name: caCertPath
           value: $(params.caCertPath)
     - name: filter-already-released-images
-      image: quay.io/konflux-ci/release-service-utils@sha256:e08d3a8dc0f29ef6e46b1c401662ff99e2efa2ff48694974e1e5709612a8b0da
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:0922da92bab23e83ce7c914380f2e2dfad72f3fb4fc28ba660c01b34589ac3c7
       computeResources:
         limits:
           memory: 1536Mi
